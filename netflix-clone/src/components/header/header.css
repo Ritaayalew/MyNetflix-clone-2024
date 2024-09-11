@@ -1,0 +1,52 @@
+
+.whole{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+    transition: 0.5 ease;
+    background-color: transparent;
+
+}
+.whole-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center; 
+}
+
+.lefty{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 140%; 
+    /* margin-left: 10%; */
+}
+.lefty li{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.righty{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 7%; 
+}
+.righty li{
+    margin: 0 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.righty li:hover{
+    transform: scale(1.05);
+} 
+
+ 
