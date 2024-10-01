@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+.movie_image{
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px; 
+    position: relative;
+    padding: 10px 0px 10px 0px;
+}
+.info{
+    width: 60%;
+    margin: 20px auto 10px auto;
+    font-size: 19px;
+    
+}
+.btn{
+    color: red;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid rgb(62, 34, 34);
+    box-shadow: inset
+}
+.btn:hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+.closebtn{
+    background-color:red;
+    color:black;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    float: right;
+    
+}
+.closebtn:hover{
+    background-color: rgb(108, 24, 16);
+}
+
+
+
+
+
+
